@@ -54,5 +54,5 @@ npm install forever -g
 ---
 ### 3. Restart the Apache Server
 ```sh
-sudo /opt/bitnami/ctlscript.sh restart apache
+sudo systemctl restart httpd
 ```
